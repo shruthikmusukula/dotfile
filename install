@@ -1,7 +1,20 @@
+#!/usr/bin/env bash
 # instructions to setup dotfile on new machine
 
+#sets BaseDir
+BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# gitconfig
 ln -s ~/dotfiles/.gitconfig ~/.gitconfig
+
+# vim
 ln -s ~/dotfiles/.vimrc ~/.vimrc
+
+# tmux
 ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
+
+# bash_profile
 ln -s ~/dotfiles/.bash_profile ~/.bash_profile
+
+# vim plugin folder in path /.vim/pack/vendor/start
 ln -s ~/dotfiles/vim/pack ~/.vim/pack
