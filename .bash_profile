@@ -23,6 +23,11 @@ export PATH
 PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
 export PATH
 
+PATH="$(npm config get prefix)/bin:${PATH}"
+export PATH
+
+export NODE_PATH="$(npm config get prefix)/lib/node_modules"
+
 export PKG_CONFIG_PATH=/Users/shruthik.musukula/Coding/ndn-cxx/build
 export LD_LIBRARY_PATH=/usr/local/lib
 
@@ -30,4 +35,4 @@ export ANDROID_NDK_HOME="/usr/local/share/crystax-ndk"
 
 #Aliases
 alias mit='cd /Users/shruthik.musukula/Documents/SimpleBashScripts/MissingSemesterCourseMIT'
-alias cs125='cd /Users/shruthik.musukula/Documents/JavaProjects/cs125/src'
+alias cs125='cd /Users/shruthik.musukula/Documents/JavaProjects/cs125/'
