@@ -17,5 +17,5 @@ ln -s ${BASEDIR}/tmux ~/.tmux.conf
 ln -s ${BASEDIR}/profile ~/.bash_profile
 
 # vim plugin folder in path /.vim/pack/vendor/start
-mkdir -p ~/.vim/pack/vendor/start
-ln -s ${BASEDIR}/.vim/ ~/.vim/
+mkdir -p ~/.vim/
+ln -s ${BASEDIR}/vim/pack ~/.vim/
