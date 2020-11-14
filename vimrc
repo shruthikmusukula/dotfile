@@ -36,10 +36,10 @@ set noerrorbells visualbell t_vb=
 set mouse+=a
 
 " In normal mode use proper key bindings for practice
-nnoremap <Left>  :echoe "Use h"<CR>
-nnoremap <Right> :echoe "Use l"<CR>
-nnoremap <Up>    :echoe "Use k"<CR>
-nnoremap <Down>  :echoe "Use j"<CR>
+"nnoremap <Left>  :echoe "Use h"<CR>
+"nnoremap <Right> :echoe "Use l"<CR>
+"nnoremap <Up>    :echoe "Use k"<CR>
+"nnoremap <Down>  :echoe "Use j"<CR>
 " set key bindings for insert mode
 "inoremap <Left>  <ESC>:echoe "Use h"<CR>
 "inoremap <Right> <ESC>:echoe "Use l"<CR>

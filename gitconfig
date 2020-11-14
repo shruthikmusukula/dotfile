@@ -6,3 +6,5 @@
 [user]
 	name = Shruthik Musukula
 	email = shruthik.musukula@gmail.com
+[core]
+	autocrlf = input
