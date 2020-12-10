@@ -4,6 +4,9 @@
 #sets BaseDir
 BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+# .config
+ln -s ${BASEDIR}/config ~/.config
+
 # gitconfig
 ln -s ${BASEDIR}/gitconfig ~/.gitconfig
 
